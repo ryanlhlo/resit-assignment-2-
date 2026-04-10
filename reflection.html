@@ -1,19 +1,114 @@
-<section class="reflection-section">
-    <h2>What I changed in Assignment 2</h2>
-    <p>
-        In Assignment 1, my page had the text but it did not really look like a magazine page yet.
-        For Assignment 2, I changed the layout so the article is split into columns using CSS instead of tables.
-        This made it look closer to the printed version and also made the code cleaner.
-    </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflection</title>
 
-    <p>
-        I also changed the colours and spacing to make the page feel more like photocopied print.
-        I used an off-white background instead of a bright white screen, and I kept most of the colours black and dark red
-        so the page would feel more like a punk zine and less like a modern website.
-    </p>
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
-    <p>
-        For JavaScript, I added a small jQuery effect to make parts of the page appear gradually.
-        I did not want the effect to be too dramatic because the main focus should still be on the article itself.
-    </p>
-</section>
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- External JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Page header -->
+    <header class="zine-header">
+        <p class="issue-info">Assignment Reflection</p>
+        <h1>REFLECTION</h1>
+    </header>
+
+    <main class="reflection-content">
+        <section class="reflection-section">
+            <h2>Looking back at Assignment 1</h2>
+            <p>
+                In Assignment 1, the easiest part for me was setting up the basic HTML files
+                and linking the pages together. Once I understood the structure of an HTML
+                document, it was not too difficult to add headings, paragraphs, and links.
+            </p>
+
+            <p>
+                The hardest part was recreating the Punk Planet page itself. I found it difficult
+                to decide how to organise the article in HTML and how to make it look similar
+                to a printed magazine page. At that stage, I focused more on getting the text
+                into the page correctly than on making the design look accurate.
+            </p>
+        </section>
+
+        <section class="reflection-section">
+            <h2>What I changed in Assignment 2</h2>
+            <p>
+                For Assignment 2, I improved the structure of the website and spent more time
+                on the visual layout. I kept the three-page format from Assignment 1, but I
+                changed the styling so the pages would feel more like a printed fanzine instead
+                of a plain HTML document.
+            </p>
+
+            <p>
+                One important improvement was changing the article layout into columns using CSS.
+                This helped the page look more like a magazine and also followed the assignment
+                instruction to avoid using tables for layout. I also made the homepage and
+                reflection page more consistent with the same overall style.
+            </p>
+        </section>
+
+        <section class="reflection-section">
+            <h2>My style choices</h2>
+            <p>
+                I chose an off-white background instead of a bright white one because it feels
+                closer to paper than to a modern website. I mainly used black text and lines,
+                with dark red as a small accent colour, because I wanted the design to feel
+                simple, bold, and slightly rough in a punk zine style.
+            </p>
+
+            <p>
+                I also changed the typography so that the body text feels more like a printed
+                article. The headings are larger and more dramatic, while the article text is
+                more compact so it can sit in columns like a magazine spread. I tried not to
+                make the layout too polished, because the original print style feels more raw
+                and independent.
+            </p>
+        </section>
+
+        <section class="reflection-section">
+            <h2>JavaScript and interaction</h2>
+            <p>
+                For the JavaScript part, I used a small jQuery effect to make the article
+                columns appear gradually when the page loads. I chose this because it adds
+                some movement to the page without distracting too much from the article itself.
+            </p>
+
+            <p>
+                I kept the effect simple because I wanted the main focus to stay on the
+                content and layout. I also added comments in my HTML, CSS, and JavaScript
+                files so the code is easier to read.
+            </p>
+        </section>
+
+        <section class="reflection-section">
+            <h2>Final thoughts</h2>
+            <p>
+                Overall, I think Assignment 2 is a clear improvement on Assignment 1. The first
+                version had the main content, but this version is closer to the look of an
+                actual fanzine page because it uses layout, typography, spacing, and colour
+                more carefully.
+            </p>
+
+            <p>
+                If I had more time, I would continue refining the details of the design and
+                experiment with making the page even closer to the original printed version.
+                However, I think this version shows a better understanding of how HTML, CSS,
+                and JavaScript can work together in a small website.
+            </p>
+        </section>
+
+        <nav class="page-links">
+            <a href="index.html" class="plain-link">Back to home</a>
+            <a href="fanzine-page.html" class="plain-link">Go to article</a>
+        </nav>
+    </main>
+</body>
+</html>
